@@ -22,7 +22,19 @@
       {
         "title": "Explore the Application",
         "text": "step4.md"
-      }
+      },
+      {
+        "title": "Update the Application",
+        "text": "step5.md"
+      },
+      {
+        "title": "Fixing the error",
+        "text": "step6.md"
+      },
+      {
+        "title": "Try Again!",
+        "text": "step7.md"
+      },
     ],
     "finish": {
       "text": "finish.md"
