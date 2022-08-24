@@ -4,7 +4,7 @@ Let's now create a Dockerfile.
 ```
 cd getting-started/app
 vi Dockerfile
-```
+```{{copy}}
 
 Now copy the following content to the Dockerfile
 ```
@@ -15,4 +15,4 @@ COPY . .
 RUN yarn install --production
 CMD ["node", "src/index.js"]
 EXPOSE 3000
-```
+```{{copy}}
