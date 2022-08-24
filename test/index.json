@@ -10,6 +10,18 @@
       {
         "title": "Dockerfile",
         "text": "step1.md"
+      },
+      {
+        "title": "Building Images",
+        "text": "step2.md"
+      },
+      {
+        "title": "Running Container",
+        "text": "step3.md"
+      },
+      {
+        "title": "Explore the Application",
+        "text": "step4.md"
       }
     ],
     "finish": {
