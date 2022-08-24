@@ -1,14 +1,14 @@
 {
-  "title": "Kubernetes Test",
+  "title": "Docker",
   "description": "Use a simple one node Kubernetes cluster and let user list all pods",
   "details": {
     "intro": {
       "text": "intro.md",
-      "foreground": "foreground.sh"
+      "background": "background.sh"
     },
     "steps": [
       {
-        "title": "List all pods",
+        "title": "Building Images",
         "text": "step1.md"
       }
     ],
