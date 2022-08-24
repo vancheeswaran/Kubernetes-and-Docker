@@ -47,6 +47,22 @@
         "title": "How to persist the information?",
         "text": "step10.md"
       },
+      {
+        "title": "Inspect Volume",
+        "text": "step11.md"
+      },
+      {
+        "title": "Multi Container Applications",
+        "text": "step12.md"
+      },
+      {
+        "title": "Connect The Containers",
+        "text": "step13.md"
+      },
+      {
+        "title": "Run the app",
+        "text": "step14.md"
+      }
     ],
     "finish": {
       "text": "finish.md"
