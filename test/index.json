@@ -1,6 +1,6 @@
 {
   "title": "Docker",
-  "description": "Use a simple one node Kubernetes cluster and let user list all pods",
+  "description": "Docker Basics Scenarios",
   "details": {
     "intro": {
       "text": "intro.md",
