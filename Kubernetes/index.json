@@ -1,6 +1,6 @@
 {
-  "title": "Docker",
-  "description": "Docker Basics Scenarios",
+  "title": "Kubernetes",
+  "description": "Kubernetes Basics Scenarios",
   "details": {
     "intro": {
       "text": "intro.md",
@@ -8,60 +8,40 @@
     },
     "steps": [
       {
-        "title": "Dockerfile",
+        "title": "Pods - the YAML way",
         "text": "step1.md"
       },
       {
-        "title": "Building Images",
+        "title": "Pods - the imperative way",
         "text": "step2.md"
       },
       {
-        "title": "Running Container",
+        "title": "Replica Sets - the YAML way",
         "text": "step3.md"
       },
       {
-        "title": "Explore the Application",
+        "title": "Replica Sets - the imperative way",
         "text": "step4.md"
       },
       {
-        "title": "Update the Application",
+        "title": "Deployment - the YAML way",
         "text": "step5.md"
       },
       {
-        "title": "Fixing the error",
+        "title": "Deployment - the imperative way",
         "text": "step6.md"
       },
       {
-        "title": "Try Again!",
+        "title": "Services - the YAML way",
         "text": "step7.md"
       },
       {
-        "title": "Docker Hub",
+        "title": "Services - the imperative way",
         "text": "step8.md"
       },
       {
-        "title": "Ephemeral Nature of containers",
+        "title": "State Persistence",
         "text": "step9.md"
-      },
-      {
-        "title": "How to persist the information?",
-        "text": "step10.md"
-      },
-      {
-        "title": "Inspect Volume",
-        "text": "step11.md"
-      },
-      {
-        "title": "Multi Container Applications",
-        "text": "step12.md"
-      },
-      {
-        "title": "Connect The Containers",
-        "text": "step13.md"
-      },
-      {
-        "title": "Run the app",
-        "text": "step14.md"
       }
     ],
     "finish": {
