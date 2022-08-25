@@ -1,14 +1,29 @@
-Lets try to update our codebase now and see how we can update the docker container
+Lets create a deployment using YAML
 
-What to remove: <p className="text-center">No items yet! Add one above!</p>
-What to add: `<p className="text-center">You have no todo items yet! Add one above!</p>`
-Where: src/static/js/app.js
-How: Use the editor option in the top left corner
+YAML Template:
 
-Lets build the latest verison now
+```
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nginx-deployment
+  labels:
+    app: nginx
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: nginx
+  template:
+    metadata:
+      labels:
+        app: nginx
+    spec:
+      containers:
+      - name: nginx
+        image: nginx:1.14.2
+        ports:
+        - containerPort: 80
+``` {{copy}}
 
-`docker build -t getting-started .`
-
-Run the container next
-
-`docker run -dp 3000:3000 getting-started`
+`kubectl create -f <Deployment Configuration file name>`
