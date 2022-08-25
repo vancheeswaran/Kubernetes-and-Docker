@@ -1,9 +1,30 @@
-Lets now create the container
+Lets create a replica set using YAML first.
 
-`docker run -dp 3000:3000 getting-started`
+YAML Template:
 
-Lets check if the container has been created correctly
+```
+apiVersion: apps/v1
+kind: ReplicaSet
+metadata:
+  name: frontend
+  labels:
+    app: guestbook
+    tier: frontend
+spec:
+  # modify replicas according to your case
+  replicas: 3
+  selector:
+    matchLabels:
+      tier: frontend
+  template:
+    metadata:
+      labels:
+        tier: frontend
+    spec:
+      containers:
+      - name: php-redis
+        image: gcr.io/google_samples/gb-frontend:v3
 
-`docker ps`
+``` {{copy}}
 
-Now that the container is up and running, how do we access the application?
+`kubectl create -f <name of the YAMl file>`
