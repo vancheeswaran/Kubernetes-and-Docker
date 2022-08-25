@@ -1,3 +1,3 @@
 Welcome!
-In this scenario we'll learn how to use Docker Commands
+In this scenario we'll learn how to use Kubernetes
 HAVE FUN!
