@@ -27,4 +27,4 @@ spec:
 
 ``` {{copy}}
 
-`kubectl create -f <name of the YAMl file>`
+`kubectl create -f <name of the YAML file>`
