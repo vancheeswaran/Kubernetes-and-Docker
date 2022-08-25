@@ -1,6 +1,3 @@
-`docker ps`
-It failed because the old container was not removed
+Lets now create the same deployment using imperative commands
 
-Lets remove the older container
-`docker stop` container-id
-`docker rm` container-id
+`kubectl create deployment <Deployment Name> --image=nginx:1.14.2 --replicas=3`
