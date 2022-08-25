@@ -1,18 +1,19 @@
-In order to build the application, we need to use a Dockerfile. A Dockerfile is simply a text-based script of instructions that is used to create a container image. The Dockerfile doesn't have any extension. 
-Let's now create a Dockerfile.
+Lets now, create a pod using YAML file!
+
+We will create a `nginx:1.14.2` container!
+
+Use the YAML template below:
 
 ```
-cd getting-started/app
-vi Dockerfile
-```{{copy}}
+apiVersion: v1
+kind: Pod
+metadata:
+  name: nginx
+spec:
+  containers:
+  - name: nginx
+    image: nginx:1.14.2
+    ports:
+    - containerPort: 80
 
-Now copy the following content to the Dockerfile
-```
-FROM node:12-alpine
-RUN apk add --no-cache python2 g++ make
-WORKDIR /app
-COPY . .
-RUN yarn install --production
-CMD ["node", "src/index.js"]
-EXPOSE 3000
-```{{copy}}
+``` {{copy}}
