@@ -17,3 +17,5 @@ spec:
     - containerPort: 80
 
 ``` {{copy}}
+
+`kubectl create -f <name of the yaml file>`
