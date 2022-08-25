@@ -1,5 +1,19 @@
-Lets Try again now!
+Lets create a service using YAML.
 
-`docker run -dp 3000:3000 getting-started`
+YAML Template:
 
-It works, Yaay!
+```
+apiVersion: v1
+kind: Service
+metadata:
+  name: my-service
+spec:
+  selector:
+    app.kubernetes.io/name: MyApp
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 9376
+```{{copy}}
+
+`kubectl create -f <service configuration file name>`
