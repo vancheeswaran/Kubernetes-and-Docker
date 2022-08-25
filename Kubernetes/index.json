@@ -1,0 +1,74 @@
+{
+  "title": "Docker",
+  "description": "Docker Basics Scenarios",
+  "details": {
+    "intro": {
+      "text": "intro.md",
+      "background": "background.sh"
+    },
+    "steps": [
+      {
+        "title": "Dockerfile",
+        "text": "step1.md"
+      },
+      {
+        "title": "Building Images",
+        "text": "step2.md"
+      },
+      {
+        "title": "Running Container",
+        "text": "step3.md"
+      },
+      {
+        "title": "Explore the Application",
+        "text": "step4.md"
+      },
+      {
+        "title": "Update the Application",
+        "text": "step5.md"
+      },
+      {
+        "title": "Fixing the error",
+        "text": "step6.md"
+      },
+      {
+        "title": "Try Again!",
+        "text": "step7.md"
+      },
+      {
+        "title": "Docker Hub",
+        "text": "step8.md"
+      },
+      {
+        "title": "Ephemeral Nature of containers",
+        "text": "step9.md"
+      },
+      {
+        "title": "How to persist the information?",
+        "text": "step10.md"
+      },
+      {
+        "title": "Inspect Volume",
+        "text": "step11.md"
+      },
+      {
+        "title": "Multi Container Applications",
+        "text": "step12.md"
+      },
+      {
+        "title": "Connect The Containers",
+        "text": "step13.md"
+      },
+      {
+        "title": "Run the app",
+        "text": "step14.md"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "kubernetes-kubeadm-1node"
+  }
+}
