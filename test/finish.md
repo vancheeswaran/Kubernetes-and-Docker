@@ -1,2 +1,3 @@
-WELL DONE !
-You solved this challenge!
+Thank You!
+
+You've reached the end of this Scenario, Yaay!
